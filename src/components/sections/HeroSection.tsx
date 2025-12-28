@@ -1,7 +1,17 @@
 import { ArrowDown, Download, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useEffect, useState } from "react";
 
 export function HeroSection() {
+
+  const [greeting,setGreeting]=useState("");
+
+  useEffect(()=> {
+    const hour = new Date().getHours();
+    if (hour < 12) setGreeting ("Good Morning...")
+      else if (hour < 17) setGreeting ("Good Afternoon...")
+        else setGreeting ("Good Evening...")
+      })
   const handleScroll = (href: string) => {
     const element = document.querySelector(href);
     element?.scrollIntoView({ behavior: "smooth" });
@@ -25,7 +35,7 @@ export function HeroSection() {
             Welcome
           </p>
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-6 animate-fade-up opacity-0" style={{ animationDelay: "100ms", animationFillMode: "forwards" }}>
-            Hi, I'm{" "}
+            {greeting}, I'm{" "}
             <span className="text-primary">Yuvaraj shanmugam</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 animate-fade-up opacity-0" style={{ animationDelay: "200ms", animationFillMode: "forwards" }}>
