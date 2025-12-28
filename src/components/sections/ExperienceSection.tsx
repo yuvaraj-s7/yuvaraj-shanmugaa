@@ -3,9 +3,9 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const experiences = [
   {
-    title: "Software Engineering Intern",
-    company: "Tech Company",
-    period: "Jun 2024 - Aug 2024",
+    title: "MERN Stack Developer Intern",
+    company: "Livewire India, Mayiladuthurai.",
+    period: "Jun 2024 - Jul 2024",
     description: "Developed and maintained web applications using React and Node.js. Collaborated with cross-functional teams to deliver new features.",
     achievements: [
       "Reduced page load time by 40% through optimization",
@@ -13,23 +13,13 @@ const experiences = [
     ],
   },
   {
-    title: "Frontend Developer (Freelance)",
-    company: "Various Clients",
-    period: "Jan 2024 - Present",
+    title: "Graduate Engineering Trainee (GET)",
+    company: "LMNAs Cloud Solutions",
+    period: "Sep 2024 - Present",
     description: "Built responsive websites and web applications for small businesses and startups.",
     achievements: [
       "Delivered 5+ projects on time and within budget",
       "Achieved 100% client satisfaction rating",
-    ],
-  },
-  {
-    title: "Teaching Assistant",
-    company: "University Name",
-    period: "Sep 2023 - Dec 2023",
-    description: "Assisted students in understanding programming concepts and debugging their code.",
-    achievements: [
-      "Mentored 30+ students in introductory CS courses",
-      "Created supplementary learning materials",
     ],
   },
 ];
@@ -75,14 +65,14 @@ export function ExperienceSection() {
                         <h3 className="text-xl font-semibold mb-1">{exp.title}</h3>
                         <p className="text-muted-foreground mb-3">{exp.company}</p>
                         <p className="text-sm text-muted-foreground mb-3">{exp.description}</p>
-                        <ul className="space-y-1">
+                        {/* <ul className="space-y-1">
                           {exp.achievements.map((achievement, i) => (
                             <li key={i} className="text-sm text-muted-foreground flex items-start gap-2">
                               <span className="text-primary mt-1">•</span>
                               {achievement}
                             </li>
                           ))}
-                        </ul>
+                        </ul> */}
                       </div>
                     </div>
                   </div>

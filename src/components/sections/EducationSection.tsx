@@ -5,26 +5,32 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 const education = [
   {
     degree: "Bachelor of Engineering in Computer Science and Engineering",
-    institution: "A.V.C. College of Engineering",
+    institution: "A.V.C. College of Engineering.",
     period: "2021 - 2025",
-    gpa: "8.13/10",
+    gpa: "81.3%",
     highlights: [
-      "Dean's List - All Semesters",
-      "Relevant Coursework: Data Structures, Algorithms, Database Systems, Web Development",
-      "Senior Project: AI-powered Study Assistant",
+      "Relevant Coursework: Web Development",
+      "Project: Privilege Escalation and Attack Detection in Cloud",
+    ],
+  },
+    {
+    degree: "Higher Secondary Certificate (HSC)",
+    institution: "Raj Vidyalaya Matric Hr Sec School, Kuttalam.",
+    period: "2020 - 2021",
+    gpa: "82.6%",
+    highlights: [
+      "Undertook Higher Secondary studies in Mathematics and Biology",
     ],
   },
   {
-    degree: "High School Diploma",
-    institution: "High School Name",
-    period: "2017 - 2021",
-    gpa: "95%",
+    degree: "Secondary School Leaving Certificate (SSLC)",
+    institution: "Raj Vidyalaya Matric Hr Sec School, Kuttalam.",
+    period: "2018 - 2019",
+    gpa: "82.6%",
     highlights: [
-      "Valedictorian",
-      "Computer Science Club President",
-      "Math Olympiad - State Level Winner",
+      "Maintained 100% attendance record throughout SSLC.",
     ],
-  },
+  }
 ];
 
 export function EducationSection() {
@@ -66,7 +72,7 @@ export function EducationSection() {
                         <Calendar className="h-4 w-4" />
                         {edu.period}
                         <span className="mx-2">•</span>
-                        <span className="text-primary font-medium">Grade: {edu.gpa}</span>
+                        <span className="text-primary font-medium">Percentage: {edu.gpa}</span>
                       </div>
                       <ul className="space-y-2">
                         {edu.highlights.map((highlight, i) => (

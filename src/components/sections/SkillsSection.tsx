@@ -1,4 +1,4 @@
-import { Code, Database, Layout, Terminal, Users, Wrench } from "lucide-react";
+import { Code, Database, Layout, Terminal, TableOfContents, Wrench } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
@@ -26,12 +26,12 @@ const skillCategories = [
   {
     title: "Tools & Platforms",
     icon: Wrench,
-    skills: ["Git","Github","Canva", "Linux", "VS Code","n8n"],
+    skills: ["Git","Github","Canva", "Linux", "Postman","n8n"],
   },
   {
-    title: "Soft Skills",
-    icon: Users,
-    skills: ["Problem Solving", "Team Work", "Communication"],
+    title: "Content Management System",
+    icon: TableOfContents,
+    skills: ["Strapi", "Cloudinary"],
   },
 ];
 
