@@ -15,7 +15,7 @@ const experiences = [
     title: "Graduate Engineering Trainee (GET)",
     company: "LMNAs Cloud Solutions",
     period: "Sep 2024 - Present",
-    description: "Working with the Product and Innovation teams to support development activities and improve overall process efficiency. Gained hands-on experience in real-time project execution.",
+    description: "Working with the Product and Innovation team to support development activities and improve overall process efficiency. Gained hands-on experience in real-time project execution.",
     achievements: [
       "Building No 1 CRM and CPQ for Transformer sales team",
     ],
