@@ -50,7 +50,8 @@ export function Navbar() {
             }}
             className="text-xl font-bold text-primary"
           >
-            Yuvaraj
+            YUVARAJ.dev
+
           </a>
 
           {/* Desktop Navigation */}
