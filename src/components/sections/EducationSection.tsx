@@ -17,9 +17,9 @@ const education = [
     degree: "Higher Secondary Certificate (HSC)",
     institution: "Raj Vidyalaya Matric Hr Sec School, Kuttalam.",
     period: "2020 - 2021",
-    gpa: "82.6%",
+    gpa: "85.6%",
     highlights: [
-      "Undertook Higher Secondary studies in Mathematics and Biology",
+      "Specialized in Mathematics and Biology.",
     ],
   },
   {
@@ -28,7 +28,7 @@ const education = [
     period: "2018 - 2019",
     gpa: "82.6%",
     highlights: [
-      "Maintained 100% attendance record throughout SSLC.",
+      "Maintained 100% attendance throughout the academic year, demonstrating consistency and discipline.",
     ],
   }
 ];
@@ -72,7 +72,7 @@ export function EducationSection() {
                         <Calendar className="h-4 w-4" />
                         {edu.period}
                         <span className="mx-2">•</span>
-                        <span className="text-primary font-medium">Percentage: {edu.gpa}</span>
+                        <span className="text-primary font-medium">CGPA/Percentage: {edu.gpa}</span>
                       </div>
                       <ul className="space-y-2">
                         {edu.highlights.map((highlight, i) => (

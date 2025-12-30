@@ -6,11 +6,13 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
+import SplashCursor from "./components/SplashCursor";
 
 const queryClient = new QueryClient();
 
 const App = () => (
   <ThemeProvider defaultTheme="dark" storageKey="portfolio-theme">
+    <SplashCursor></SplashCursor>
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
         <Toaster />

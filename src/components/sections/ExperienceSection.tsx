@@ -5,21 +5,19 @@ const experiences = [
   {
     title: "MERN Stack Developer Intern",
     company: "Livewire India, Mayiladuthurai.",
-    period: "Jun 2024 - Jul 2024",
-    description: "Developed and maintained web applications using React and Node.js. Collaborated with cross-functional teams to deliver new features.",
+    period: "Jun 2024 - Jul 2024 (1 Month)",
+    description: "Built a MERN-based e-commerce application with authentication, product listing, and cart features. Worked on both frontend and backend to deliver a responsive user experience",
     achievements: [
       "Reduced page load time by 40% through optimization",
-      "Implemented automated testing increasing coverage to 80%",
     ],
   },
   {
     title: "Graduate Engineering Trainee (GET)",
     company: "LMNAs Cloud Solutions",
     period: "Sep 2024 - Present",
-    description: "Built responsive websites and web applications for small businesses and startups.",
+    description: "Working with the Production and Innovation teams to support development activities and improve overall process efficiency. Gained hands-on experience in real-time project execution.",
     achievements: [
-      "Delivered 5+ projects on time and within budget",
-      "Achieved 100% client satisfaction rating",
+      "Building No 1 CRM and CPQ for Transformer sales team",
     ],
   },
 ];
@@ -65,14 +63,14 @@ export function ExperienceSection() {
                         <h3 className="text-xl font-semibold mb-1">{exp.title}</h3>
                         <p className="text-muted-foreground mb-3">{exp.company}</p>
                         <p className="text-sm text-muted-foreground mb-3">{exp.description}</p>
-                        {/* <ul className="space-y-1">
+                        <ul className="space-y-1">
                           {exp.achievements.map((achievement, i) => (
                             <li key={i} className="text-sm text-muted-foreground flex items-start gap-2">
                               <span className="text-primary mt-1">•</span>
                               {achievement}
                             </li>
                           ))}
-                        </ul> */}
+                        </ul>
                       </div>
                     </div>
                   </div>

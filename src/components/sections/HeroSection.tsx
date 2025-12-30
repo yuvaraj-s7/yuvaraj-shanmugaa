@@ -8,9 +8,9 @@ export function HeroSection() {
 
   useEffect(()=> {
     const hour = new Date().getHours();
-    if (hour < 12) setGreeting ("Good Morning...")
-      else if (hour < 17) setGreeting ("Good Afternoon...")
-        else setGreeting ("Good Evening...")
+    if (hour < 12) setGreeting ("Good Morning")
+      else if (hour < 17) setGreeting ("Good Afternoon")
+        else setGreeting ("Good Evening")
       })
   const handleScroll = (href: string) => {
     const element = document.querySelector(href);
@@ -31,25 +31,25 @@ export function HeroSection() {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl mx-auto text-center">
-          <p className="text-primary font-medium mb-4 animate-fade-up opacity-0" style={{ animationDelay: "0ms", animationFillMode: "forwards" }}>
-            Welcome
+          <p className="text-primary font-large mb-4 animate-fade-up opacity-0" style={{ animationDelay: "0ms", animationFillMode: "forwards" }}>
+            {greeting}, Glad to have you here
           </p>
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-6 animate-fade-up opacity-0" style={{ animationDelay: "100ms", animationFillMode: "forwards" }}>
-            {greeting}, I'm{" "}
+            Hello, I'm{" "}
             <span className="text-primary">Yuvaraj shanmugam</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 animate-fade-up opacity-0" style={{ animationDelay: "200ms", animationFillMode: "forwards" }}>
-          Aspiring Software Developer
+          Software Developer | Problem Solver | Team Player
           </p>
           <p className="text-muted-foreground max-w-xl mx-auto mb-10 animate-fade-up opacity-0" style={{ animationDelay: "300ms", animationFillMode: "forwards" }}>
-            Passionate about building innovative solutions and turning ideas into reality through code.
+            I design and develop real-world applications using modern technologies, strong problem-solving skills, and effective teamwork.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up opacity-0" style={{ animationDelay: "400ms", animationFillMode: "forwards" }}>
             <Button size="lg" className="gap-2" asChild>
               <a href="/resume.pdf" download>
                 <Download className="h-5 w-5" />
-                Download CV
+                View Resume
               </a>
             </Button>
             <Button
@@ -59,7 +59,7 @@ export function HeroSection() {
               onClick={() => handleScroll("#contact")}
             >
               <Mail className="h-5 w-5" />
-              Contact Me
+              Let's Talk
             </Button>
           </div>
         </div>

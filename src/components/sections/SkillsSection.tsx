@@ -24,12 +24,12 @@ const skillCategories = [
     skills: ["PostgreSQL", "MySQL",],
   },
   {
-    title: "Tools & Platforms",
+    title: "Tools & Developer Utilities",
     icon: Wrench,
-    skills: ["Git","Github","Canva", "Linux", "Postman","n8n"],
+    skills: ["Git","Github", "Linux", "Postman","n8n"],
   },
   {
-    title: "Content Management System",
+    title: "CMS & Media",
     icon: TableOfContents,
     skills: ["Strapi", "Cloudinary"],
   },
