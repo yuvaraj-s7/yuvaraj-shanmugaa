@@ -34,9 +34,9 @@ export function HeroSection() {
           <p className="text-primary font-bold font-large mb-4 animate-fade-up opacity-0" style={{ animationDelay: "0ms", animationFillMode: "forwards" }}>
             {greeting}, Glad to have you here
           </p>
-          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-6 animate-fade-up opacity-0" style={{ animationDelay: "100ms", animationFillMode: "forwards" }}>
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 animate-fade-up opacity-0" style={{ animationDelay: "100ms", animationFillMode: "forwards" }}>
             Hello, I'm{" "}
-            <span className="text-primary">Yuvaraj shanmugam</span>
+            <span className="text-primary">Yuvaraj Shanmugam</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 animate-fade-up opacity-0" style={{ animationDelay: "200ms", animationFillMode: "forwards" }}>
           Software Developer | Problem Solver | Team Player
