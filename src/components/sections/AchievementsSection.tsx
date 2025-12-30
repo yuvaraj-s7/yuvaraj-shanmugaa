@@ -6,25 +6,25 @@ const achievements = [
   {
     title: "Smart India Hackathon Finalist - 2023",
     event: "IES College of Technology, Bhopal.",
-    description: "SIH 2024 Finalist - Built a chatbot solution for the Ministry of Coal & Mines.",
+    description: "Built a chatbot solution for the Ministry of Coal & Mines to help users search and access information on coal mining laws, acts, and related regulations.",
     icon: Trophy,
   },
   {
     title: "Smart India Hackathon Finalist - 2024",
     event: "St. Joseph's Institute of Technology, Chennai.",
-    description: "Successfully completed Hacktoberfest with 10+ merged pull requests",
+    description: "Developed an e-commerce-style Philately website for India Post where users can browse stamps and purchases are approved by authorized officers.",
     icon: Trophy,
   },
   {
-    title: "Competitive Programming",
-    event: "CodeForces / LeetCode",
-    description: "Solved 500+ problems, achieved Knight rating on LeetCode",
+    title: "Runner-up In Paper Presentation",
+    event: "HacTec'24, EGS Pillay Engineering College, Nagapattinam.",
+    description: "Won 2nd prize in paper presentation on the topic 'Cyber security and its threats' in EGS Pillay college of enginnering on March 2024.",
     icon: Zap,
   },
   {
-    title: "Academic Excellence Award",
-    event: "University Name",
-    description: "Recognized for outstanding academic performance and contributions",
+    title: "Best Outgoing Student - BE(CSE) | 2021-2025",
+    event: "A.V.C. College of Engineering, Mayiladuthurai.",
+    description: "Awarded for consistent academic performance, technical involvement, and overall contribution throughout the engineering program.",
     icon: Medal,
   },
 ];
