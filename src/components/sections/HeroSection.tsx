@@ -31,7 +31,7 @@ export function HeroSection() {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl mx-auto text-center">
-          <p className="text-primary font-large mb-4 animate-fade-up opacity-0" style={{ animationDelay: "0ms", animationFillMode: "forwards" }}>
+          <p className="text-primary font-bold font-large mb-4 animate-fade-up opacity-0" style={{ animationDelay: "0ms", animationFillMode: "forwards" }}>
             {greeting}, Glad to have you here
           </p>
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-6 animate-fade-up opacity-0" style={{ animationDelay: "100ms", animationFillMode: "forwards" }}>
@@ -47,7 +47,7 @@ export function HeroSection() {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up opacity-0" style={{ animationDelay: "400ms", animationFillMode: "forwards" }}>
             <Button size="lg" className="gap-2" asChild>
-              <a href="/resume.pdf" download>
+              <a href="/Yuvaraj_Shanmugam_Profile.pdf" download>
                 <Download className="h-5 w-5" />
                 View Resume
               </a>

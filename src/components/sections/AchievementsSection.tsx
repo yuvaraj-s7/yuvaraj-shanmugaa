@@ -4,16 +4,16 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const achievements = [
   {
-    title: "Hackathon Winner",
-    event: "University Tech Fest 2024",
-    description: "First place in 48-hour hackathon building an AI-powered healthcare solution",
+    title: "Smart India Hackathon Finalist - 2023",
+    event: "IES College of Technology, Bhopal.",
+    description: "SIH 2024 Finalist - Built a chatbot solution for the Ministry of Coal & Mines.",
     icon: Trophy,
   },
   {
-    title: "Open Source Contributor",
-    event: "Hacktoberfest 2023",
+    title: "Smart India Hackathon Finalist - 2024",
+    event: "St. Joseph's Institute of Technology, Chennai.",
     description: "Successfully completed Hacktoberfest with 10+ merged pull requests",
-    icon: Star,
+    icon: Trophy,
   },
   {
     title: "Competitive Programming",
