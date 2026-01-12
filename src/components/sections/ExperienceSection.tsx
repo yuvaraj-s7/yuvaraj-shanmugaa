@@ -5,7 +5,7 @@ const experiences = [
   {
     title: "MERN Stack Developer Intern",
     company: "Livewire India, Mayiladuthurai.",
-    period: "Jun 2024 - Jul 2024 (1 Month)",
+    period: "Jun 2025 - Jul 2025 (1 Month)",
     description: "Built a MERN-based e-commerce application with authentication, product listing, and cart features. Worked on both frontend and backend to deliver a responsive user experience",
     achievements: [
       "Reduced page load time by 40% through optimization",
@@ -14,7 +14,7 @@ const experiences = [
   {
     title: "Graduate Engineering Trainee (GET)",
     company: "LMNAs Cloud Solutions",
-    period: "Sep 2024 - Present",
+    period: "Sep 2025 - Present",
     description: "Working with the Product and Innovation team to support development activities and improve overall process efficiency. Gained hands-on experience in real-time project execution.",
     achievements: [
       "Building No 1 CRM and CPQ for Transformer sales team",
