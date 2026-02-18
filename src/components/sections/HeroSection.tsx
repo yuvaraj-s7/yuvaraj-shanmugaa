@@ -47,7 +47,7 @@ export function HeroSection() {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up opacity-0" style={{ animationDelay: "400ms", animationFillMode: "forwards" }}>
             <Button size="lg" className="gap-2" asChild>
-              <a href="/Yuvaraj_Career_Journey" download>
+              <a href="/Yuvaraj_Career_Journey.pdf" download>
                 <Download className="h-5 w-5" />
                 View Resume
               </a>
